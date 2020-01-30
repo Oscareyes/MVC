@@ -12,7 +12,7 @@ namespace MiprimerproyectoMVC.Controllers
         // GET: Home
         public ActionResult Index()
         {
-
+            ViewBag.Algo = "Soy un mensaje desde el controlado";
             return View();
         }
         public ActionResult Alumno()
